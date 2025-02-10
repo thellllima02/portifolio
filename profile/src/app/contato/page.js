@@ -1,3 +1,4 @@
-export default function Sobre(){
-    return <h1>Contato</h1>;
+import styles from "./page.module.css";
+export default function Contato(){
+    return <h1 className="{styles.title}">Contato</h1>;
 }
