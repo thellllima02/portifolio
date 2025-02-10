@@ -26,7 +26,7 @@ export default function Layout({ children }) {
 
           <main>{children}</main>
 
-          <footer>© 2025 - Meu Site - Made by Hércules</footer>
+          <footer className={styles.footer}>© 2025 - Meu Site - Made by Hércules</footer>
         </div>
       </body>
     </html>
