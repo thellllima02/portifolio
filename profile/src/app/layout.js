@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </head>
-      <body>
+      <body className={styles.body}>
         <div className={styles.container}>
           <header>
             <nav className={styles.navbar}>

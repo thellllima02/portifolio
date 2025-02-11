@@ -1,4 +1,3 @@
-/* Home.module.css */
 .container {
     min-height: 100vh;
     background-color: #2F2E2E;
@@ -9,9 +8,10 @@
     justify-content: center;
     padding: 20px;
     margin: 0;
-    padding: 0;
+    padding-top: 50px;
     box-sizing: border-box;
     width: 100%;
+    margin-bottom: 80px;
   }
   
   .navbar {
@@ -26,11 +26,12 @@
     transform: translateX(-50%);
     width: max-content;
     justify-self: center;
+    z-index: 1000; /* Mantém acima do conteúdo */
   }
   .footer {
     margin-top: 20px;
-    font-size: 12px;
-    color: rgb(241, 157, 157);
+    font-size: 14px;
+    color: rgb(201, 68, 15);
   }
   .navButton{
     font-size: 20px;
@@ -39,20 +40,25 @@
     transition: color 0.3s ease-in-out;
  }
  .navButton:hover {
-  color: white; /* Muda a cor ao passar o mouse */
+  color: white; 
 }
  .p {
   width: 80%;
   max-width: 800px;
   font-size: 20px;
   text-align: center;
-  margin: 0 auto; /* Garante que fique centralizado */
+  margin: 0 auto; 
   padding: 15px;
 }
 .body{
   background-color: #2F2E2E;
-  margin: 93px;
 }
+.image{
+  border-radius: 200px;
+  width: 200px;
+  height: auto;
+}
+
 
 
   
