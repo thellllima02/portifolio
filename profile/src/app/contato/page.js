@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./page.module.css";
+import { Button } from "../../components/button";
 
 export default function Contato() {
     const [formData, setFormData] = useState({ nome: "", email: "", mensagem: "" });
@@ -49,7 +50,7 @@ export default function Contato() {
                     Mensagem:
                     <textarea name="mensagem" value={formData.mensagem} onChange={handleChange} className={styles.textarea} required></textarea>
                 </label>
-                <button type="submit" className={styles.button}>Enviar</button>
+                <Button label = "Enviar" />
             </form>
         </div>
     );
