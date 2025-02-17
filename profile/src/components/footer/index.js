@@ -1,6 +1,7 @@
 import styles from "./styles.module.css";
-export function Footer() {
+export function Footer({label}) {
     return(
-        <footer className={styles.footer}>© 2025 - Meu Site - Made by Hércules</footer>
+        <footer className={styles.footer}>
+            {label}</footer>
     )
 }

@@ -28,6 +28,7 @@ export default function Layout({ children }) {
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
       </head>
       <body className={styles.body}>
         <div className={styles.container}>
@@ -36,7 +37,7 @@ export default function Layout({ children }) {
 
           <main>{children}</main>
 
-          <Footer />
+          <Footer label="© 2025 - Meu Site - Made by Hércules"/>
         </div>
       </body>
     </html>
