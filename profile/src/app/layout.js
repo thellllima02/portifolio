@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
-import Link from "next/link";
+import {Header} from "../components/header";
+import {Footer} from "../components/footer";
 
 export const metadata = {
   title: 'Next.js',
@@ -15,18 +16,12 @@ export default function Layout({ children }) {
       </head>
       <body className={styles.body}>
         <div className={styles.container}>
-          <header>
-            <nav className={styles.navbar}>
-              <Link className={styles.navButton} href="/">Home</Link>
-              <Link className={styles.navButton} href="/sobre">Sobre</Link>
-              <Link className={styles.navButton} href="/projetos">Projetos</Link>
-              <Link className={styles.navButton} href="/contato">Contato</Link>
-            </nav>
-          </header>
+          
+          <Header />
 
           <main>{children}</main>
 
-          <footer className={styles.footer}>© 2025 - Meu Site - Made by Hércules</footer>
+          <Footer />
         </div>
       </body>
     </html>

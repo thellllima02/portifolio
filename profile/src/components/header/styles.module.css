@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #2F2E2E;
+    display: flex;
+    gap: 30px;
+    padding: 15px 20px;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    justify-self: center;
+    z-index: 1000; /* Mantém acima do conteúdo */
+  }
+  .navButton{
+    font-size: 20px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: rgb(200, 200, 200);
+    transition: color 0.3s ease-in-out;
+ }
+ .navButton:hover {
+  color: white; 
+}
