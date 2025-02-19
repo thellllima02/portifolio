@@ -26,12 +26,13 @@
     width: 100%;
     /* Define uma margem inferior para o contêiner */
     margin-bottom: 80px;
+    
 }
 
 /* Define a classe p */
 .p {
     /* Define a largura máxima do parágrafo */
-    max-width: 500px;
+    max-width: 800px;
     /* Define o alinhamento do texto como justificado */
     text-align: justify;
 }
