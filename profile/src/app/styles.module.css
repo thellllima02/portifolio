@@ -1,31 +1,48 @@
+/* Define a classe container */
 .container {
+    /* Define a altura mínima do contêiner para ocupar toda a altura da janela */
     min-height: 100vh;
+    /* Define a cor de fundo do contêiner */
     background-color: #2F2E2E;
+    /* Define a cor do texto dentro do contêiner */
     color: white;
+    /* Utiliza flexbox para alinhar os itens dentro do contêiner */
     display: flex;
+    /* Define a direção dos itens dentro do contêiner como coluna */
     flex-direction: column;
+    /* Centraliza os itens horizontalmente */
     align-items: center;
+    /* Centraliza os itens verticalmente */
     justify-content: center;
+    /* Define o preenchimento interno do contêiner */
     padding: 20px;
+    /* Remove a margem externa do contêiner */
     margin: 0;
+    /* Define um preenchimento superior adicional */
     padding-top: 50px;
+    /* Define o box-sizing para incluir o preenchimento e a borda no cálculo da largura e altura */
     box-sizing: border-box;
+    /* Define a largura do contêiner para ocupar 100% do elemento pai */
     width: 100%;
+    /* Define uma margem inferior para o contêiner */
     margin-bottom: 80px;
-  }
- .p {
-  width: 80%;
-  max-width: 800px;
-  font-size: 20px;
-  text-align: center;
-  margin: 0 auto; 
-  padding: 15px;
-}
-.body{
-  background-color: #2F2E2E;
 }
 
+/* Define a classe p */
+.p {
+    /* Define a largura máxima do parágrafo */
+    max-width: 500px;
+    /* Define o alinhamento do texto como justificado */
+    text-align: justify;
+}
+
+/* Define a classe body */
+.body {
+    /* Define a cor de fundo do corpo */
+    background-color: #2F2E2E;
+}
 
 
 
-  
+
+
