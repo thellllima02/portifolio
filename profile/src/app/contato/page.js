@@ -2,6 +2,7 @@
 import { useState } from "react";
 import styles from "./page.module.css";
 import { Button } from "../../components/button";
+import {Iconns} from "../../components/iconns";
 
 export default function Contato() {
     const [formData, setFormData] = useState({ nome: "", email: "", mensagem: "" });
@@ -52,6 +53,15 @@ export default function Contato() {
                 </label>
                 <Button label = "Enviar" />
             </form>
+            <div className={styles.title}>
+            <a href="https://wa.me/5577999815726" target="_blank" rel="noopener noreferrer"><Iconns src="./img/iconwhatsapp.png" alt="Icone do Whatsapp" /></a>
+            <a href="https://www.linkedin.com/in/hercules-silva/" target="_blank" rel="noopener noreferrer"> <Iconns src="./img/iconlink.png" alt="Icone do Linkedin"/></a> 
+            <a href="https://www.youtube.com/@thelllima02" target="_blank" rel="noopener noreferrer">
+            <Iconns src="./img/iconyoutube.png" alt="Icone do Youtube"/></a>
+            </div>
+            
+            
+            
         </div>
     );
 }
