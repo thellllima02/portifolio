@@ -58,10 +58,12 @@ export default function Contato() {
             <a href="https://www.linkedin.com/in/hercules-silva/" target="_blank" rel="noopener noreferrer"> <Iconns src="./img/iconlink.png" alt="Icone do Linkedin"/></a> 
             <a href="https://www.youtube.com/@thelllima02" target="_blank" rel="noopener noreferrer">
             <Iconns src="./img/iconyoutube.png" alt="Icone do Youtube"/></a>
+            <a href="https://www.github.com/thellllima02" target="_blank" rel="noopener noreferrer">
+            <Iconns src="./img/icongithub2.png" alt="Icone do Github"/></a>
+            
+            
             </div>
-            <a herf="https://github.com/thellllima02" target="_blank" rel="noopener noreferrer"> <Iconns src="./img/icongithub.png" alt="Icone do Github"/>
-
-            </a>
+            
             
             
             
