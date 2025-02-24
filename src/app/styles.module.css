@@ -42,6 +42,19 @@
     /* Define a cor de fundo do corpo */
     background-color: #2F2E2E;
 }
+.a{
+    text-decoration: none;
+    color: white;
+    max-width: 800px;
+    padding: 12px;
+    margin: 30px;
+    border: 2px solid white;
+    border-radius: 18px;
+}
+.a:hover{
+    background-color: white;
+    color: black;
+}
 
 
 
