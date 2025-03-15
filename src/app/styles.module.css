@@ -34,12 +34,13 @@
     text-decoration: none;
     color: white;
     padding: 12px;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 18px;
 }
 
 .a:hover {
-    background-color: white;
+    background-color: rgb(71, 236, 71);
+    border: black;
     color: black;
 }
 
